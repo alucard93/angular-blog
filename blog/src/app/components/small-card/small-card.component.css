@@ -1,5 +1,5 @@
 .container__small-card {
-  width: 700px;
+  width: 100%;
   margin-bottom: 10px;
 }
 
@@ -9,9 +9,10 @@
 }
 
 .small-card__photo > img {
-  width: 200px;
+  max-width: 200px;
   min-width: 200px;
   margin-right: 20px;
+  border-radius: 8px;
 }
 
 .small-card__title {
